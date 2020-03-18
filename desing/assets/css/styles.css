@@ -1,0 +1,291 @@
+.navbar {
+  width: 100vw;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 8px solid #333333;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.logo {
+  margin: 0 24px 0 0;
+  font-size: 14px;
+}
+
+.logo strong {
+  font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+header .col .col-xl-4 .fb {
+  font-size: 64px;
+}
+
+header .left {
+  font-weight: bold;
+  font-size: 61px;
+  line-height: 71px;
+}
+
+.hed-l-t {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 71px;
+  letter-spacing: -0.5px;
+  margin-left: 5rem;
+}
+
+header {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #FFFFFF;
+  margin-top: 4.5%;
+  width: 100%;
+  height: 85vh;
+  background: #338FBF;
+  background: #338FBF url("../../assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+
+.hl {
+  margin: 43px 24px 0 0;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+}
+
+.hr {
+  margin-left: 6%;
+  height: 85vh;
+
+}
+
+#connect {
+  position: absolute;
+  width: 150px;
+  height: 48px;
+  left: 6rem;
+  top: 70vh;
+  background-color: #F2C94C;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px 0 20px;
+  color: #000;
+  z-index: 999;
+}
+
+.hed-l-b {
+  margin-left: 5rem;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  margin: 0 0 0 -24px;
+  padding: 4rem 0 4rem 0;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.list-p .items span {
+  font-size: 12px;
+  line-height: 16px;
+  color: #338FBF;
+}
+
+.list-p .items h2 span {
+  color: #BDBDBD;
+  font-size: 24px;
+}
+
+.list-p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.list-p .l{
+  padding-left: 3.625rem;
+}
+
+.items, h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.items p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+
+.items {
+  padding-bottom: 1.5rem;
+  width: 558px;
+  height: 132px;
+}
+
+.items img {
+  width: 67%;
+  margin: 0 0 0 4rem;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px 0 20px;
+  position: absolute;
+  width: 150px;
+  height: 48px;
+  border: none;
+  background: #F2C94C;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+#how_it_work .bottom h4 {
+  font-size: 16px;
+}
+#how_it_work .bottom img{
+  width: 70%;
+  margin-left: 13%;
+  margin-top: -2.1rem;
+}
+
+#example_of_use .item1{
+  margin: 62px 0 0 0;
+}
+
+#example_of_use .item1 .col-md-4 {
+
+}
+
+#example_of_use .item2{
+
+}
+
+#example_of_use h2{
+  padding: 48px 0px 0 23px;
+  width: 70%;
+  height: 114px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  color: #000000;
+  margin: 0 0 0 12rem;
+}
+
+@media (max-width: 740px) {
+  .navbar-expand-md .navbar-nav {
+    margin-top: 1rem;
+    background-color: #fff;
+    margin: 0 -16px 0 -16px;
+    padding: 0 10vw 0 10vw;
+    z-index: 999;
+    position: relative;
+  }
+
+  .navbar-light .navbar-toggler {
+    margin: 0 0 0 0;
+  }
+
+  header{
+    background: #338FBF url("../../assets/img//bg.png");
+    background-repeat: no-repeat;
+    background-position-x: -17vw;
+    background-position-y: 96%;
+    background-size: 118%;
+  }
+
+  header .left {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+  }
+  .hr {
+    margin-left: 0;
+    height: 26vh;
+  }
+
+  #connect {
+    margin-left: -5rem;
+    width: 92%;
+    padding: 3.3% 0px 0px 34%;
+    font-size: 14px;
+  }
+
+  .hed-l-t {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .hed-l-b {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: -2rem;
+  }
+
+  .hed-l-t .hed-l-b {
+    margin-left: 0;
+  }
+
+  #how_it_work{
+    width: 100%;
+    padding: 0 1px 0 1rem;
+  }
+
+  #how_it_work .items {
+    width: 86vw;
+    margin-top: 3rem;
+  }
+
+  #how_it_work .title{
+    padding: 2rem 0 0 0;
+  }
+
+  #how_it_work .list-p .l{
+    padding-left: 1rem;
+  }
+
+  #how_it_work .bottom h4 {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+
+
+
+}
+
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Andata_temp</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand text-uppercase logo" href="#"><strong>Andata</strong>&nbsp;digital passport</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">О нас</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Контакты</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">30-days trial</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Войти</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <header>
+        <div class="row" style="width: 100%;margin-left: 0;">
+            <div class="col col-xl-5 hl" style="/*border: 1px solid;*/">
+                <h1 class="hed-l-t">Цифровой паспорт —</h1>
+                <h1 class="hed-l-b">новая эра <span style="text-decoration: underline;">чистой</span> метрики и данных</h1>
+            </div>
+            <div class="col col-xl-6 hr"></div>
+        </div><button class="btn btn-primary" id="connect" type="button">подключить</button></header>
+    <section id="how-it-work"></section>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">Heading</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
