@@ -179,6 +179,7 @@ header {
 
 #example_of_use .item1{
   margin: 62px 0 0 0;
+  padding-bottom: 6.6875rem;
 }
 
 #example_of_use .item1 .col-md-4 {
@@ -201,6 +202,39 @@ header {
   text-align: center;
   color: #000000;
   margin: 0 0 0 12rem;
+}
+
+#example_of_use .col-md-4,#example_of_use .col-md-6{
+  position: relative;
+  height: 19.4375rem;
+
+}
+
+#example_of_use  .press_bottom{
+  position: absolute;
+  bottom: 0;
+  margin-left: 3rem;
+}
+
+#example_of_use  .press_bottom img{
+  margin-left: 5rem;
+  padding-bottom: 2.5rem;
+}
+
+#example_of_use h4{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  width: 17.125rem;
+}
+
+.col-md-6{
+  border: 1px solid;
 }
 
 @media (max-width: 740px) {
@@ -281,7 +315,11 @@ header {
     margin-top: 2rem;
   }
 
-
+  #example_of_use h2{
+    padding: 48px 0px 0 0;
+    margin: 0 0 0 2rem;
+    font-size: 34px;
+  }
 
 }
 
