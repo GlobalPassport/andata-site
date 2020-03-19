@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Andata_temp</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootstrap-4.ru/docs/4.0/dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+
     <nav class="navbar navbar-light navbar-expand-md">
         <div class="container-fluid"><a class="navbar-brand text-uppercase logo" href="#"><strong>Andata</strong>&nbsp;digital passport</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
@@ -22,27 +24,34 @@
         </div>
         </div>
     </nav>
+
     <header>
-        <div class="row" style="width: 100%;margin-left: 0;">
-            <div class="col-xl-5 hl" style="/*border: 1px solid;*/">
-                <h1 class="hed-l-t">Цифровой паспорт —</h1>
-                <h1 class="hed-l-b">новая эра <span style="text-decoration: underline;">чистой</span> метрики и данных</h1>
+        <div class="container h-100">
+            <div class="row  align-items-center h-100">
+                <div class="col-sm">
+                    <h1>Цифровой паспорт —</h1>
+                    <h2>новая эра <span style="text-decoration: underline;">чистой</span> метрики и данных</h2>
+                </div>
+                <div class="col-sm"></div>
+                <div class="col-sm"></div>
             </div>
-            <div class="col-xl-6 hr"></div>
-        </div><button class="btn btn-primary" id="connect" type="button">подключить</button></header>
+            <div class="row" >
+                <div class="col-sm">
+                    <button class="btn connect btn-sm" id="connect" type="button">подключить</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <section id="how_it_work">
         <div class="container">
             <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="title">Как это работает</h1>
+                <div class="col-sm">
+                    <h1 class="title ml-2">Как это работает</h1>
                 </div>
             </div>
             <div class="row list-p">
-                <div class="col-md-6">
+                <div class="col-sm">
                     <div class="items">
                         <h2><span>1 &nbsp;</span>Трекинг</h2><span>Cookie + SuperCookie + Fingerprints + 10к parameters</span>
                         <p>Сбор данных с сайтов, мобильных приложений, рекламных кабинетов / crm / erp систем заказчика</p>
@@ -56,7 +65,7 @@
                         <p>Нормализация и стандартизация собранных данных</p>
                     </div>
                 </div>
-                <div class="col-md-6 l" >
+                <div class="col-sm" >
                     <div class="items">
                         <h2><span>4 &nbsp;</span>Дедупликация</h2><span>Machine learning + Neural network</span>
                         <p>Выявление и удаление дублей посетителей</p>
@@ -69,72 +78,212 @@
                         <h2><span>6 &nbsp;</span>Применение</h2><span>Machine learning</span>
                         <p>Управление рекламными кампаниями на основании сегментов</p>
                     </div>
-                    <div class="items down">
+                    <div class="items down"></div>
                 </div>
             </div>
             <div class="row" style="margin-top: -8rem;">
-                <div class="col-md-6 bottom">
-                    <img src="assets/img/andata_lines.png">
-                </div>
-                <div class="col-md-6 bottom l">
+                <div class="col-sm bottom img-b"></div>
+                <div class="col-sm bottom">
                     <h4><strong>Цифровой паспорт</strong> – автоматически обновляющийся
                         информационно-аналитический профиль посетителя сайта, состоящий из
                         тысяч параметров
                     </h4>
-                    <button class="btn  connect" type="button">подключить</button></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="example_of_use">
-        <div class="row">
-            <div class="col-xl-12">
-                <h2>Пример использования цифрового паспорта</h2>
-            </div>
-        </div>
-        <div class="row item1">
-            <div class="col-md-4">
-                <div class="press_bottom">
-                    <img src="assets/img/smart.png" alt="">
-                    <div class="text-left">Утром, <strong>со смартфона</strong> покупатель узнает о новом товаре и переходит по рекламе Google </div>
-                </div>
-
-            </div>
-            <div class="col-md-4">
-                <div class="press_bottom">
-                    <img src="assets/img/comp.png" alt="">
-                    <div class="text-left">В обед, <strong>с рабочего компьютера</strong> переходит по рекламе Yandex, чтобы изучить товар</div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="press_bottom">
-                    <img src="assets/img/tab.png" alt="">
-                    <div class="text-left">Вечером дома, <strong>с планшета</strong> сразу заходит на сайт и совершает покупку</div>
-                </div>
-            </div>
-        </div>
-        <div class="row item2">
-            <div class="col-md-6">
-                <div class="press_bottom">
-                    <img src="assets/img/sleep.png" alt="">
-                    <div class="text-left">
-                        <h4>Что покажут системы аналитики</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 ">
-                <div class="press_bottom">
-                    <img src="assets/img/yawn.png" alt="">
-                    <div class="text-left">
-                        <h4>Что покажет Цифровой паспорт</h4>
+                    <div class="row">
+                        <div class="col-md-3"><button class="btn connect w-100" type="button">подключить</button></div>
+                        <div class="col-md-4 mt-2 text-center"> <span >30 дней бесплатно</span></div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
+
+    <section id="example_of_use" class="mt-5">
+        <div class="container">
+            <div class="row title">
+                <div class="col mt-5">
+                    <h2 >Пример использования цифрового паспорта</h2>
+                </div>
+            </div>
+            <div class="row item1">
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <img  src="assets/img/smart.png" alt="">
+                        <div class="text-left">
+                            Утром, <strong>со смартфона</strong> покупатель
+                            узнает о новом товаре и переходит по рекламе Google
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <img src="assets/img/comp.png" alt="">
+                        <div class="text-left">
+                            В обед, <strong>с рабочего компьютера</strong>
+                            переходит по рекламе Yandex, чтобы изучить товар
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <img src="assets/img/tab.png" alt="">
+                        <div class="text-left">Вечером дома, <strong>с планшета</strong>
+                            сразу заходит на сайт и совершает покупку
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row item2">
+                <div class="col-sm">
+                    <div class="press_bottom">
+                        <img src="assets/img/sleep.png" alt="">
+                        <div class="text-left">
+                            <h4 class="pt-4 pb-3">Что покажут системы аналитики</h4>
+                            <ul class="list1">
+                                <li><span class="pl-2">Было 3 уникальных посетителя на сайте</span></li>
+                                <li><span class="pl-2">2 посетителя перешли из рекламы</span></li>
+                                <li><span class="pl-2">1 посетитель зашел сразу на сайт и купил</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="press_bottom">
+                        <img src="assets/img/yawn.png" alt="">
+                        <div class="text-left">
+                            <h4 class="pt-4 pb-3">Что покажет Цифровой паспорт</h4>
+                            <ul class="list2">
+                                <li><span class="pl-2">Был 1 уникальный посетитель на сайте</span></li>
+                                <li><span class="pl-2">2 раза он перешел из рекламы</span></li>
+                                <li><span class="pl-2">Купил перейдя сразу на сайт</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer_to_connect">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-7 mt-5">
+                    <p>
+                        Существующие системы аналитики<br>
+                        не позволяют отследить и объединить действия пользователя с разных устройств, каналов и браузеров.
+                    </p>
+                    <h4>Цифровой паспорт решает эту задачу!</h4>
+                    <button class="btn connect" type="button">подключить</button>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cost">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="pt-5">Стоимость</h1>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-sm-4 text-center pb-5">
+                    <h2>1 ₽ / месяц</h2>
+                        <span>
+                        за каждый цифровой паспорт  который создан или дополнен</span>
+                        <img  src="assets/img/rub.png" alt="">
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6 ">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-sm">
+                                <h4>Пример расчета</h4>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-sm">
+                                Посещаемость сайта согласно вашей аналитике
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mt-4">
+                                <strong> 100 000 </strong>уникальных посетителей в месяц
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col  mt-4">
+                                Система Andata объединла и выявила
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <strong>  50 000</strong> уникальных цифровых паспортов
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col">
+                                <strong>  Итоговая цена — 50 000 ₽ за месяц</strong>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col comment">*Минимальная стоимость услуги — 30 000 ₽ в месяц за каждый вэб-сайт.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="partner">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-5 text-center">
+                    <h1>Партнеры</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="simple-slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" style="background-image:url(assets/img/slide.png);"></div>
+                                <div class="swiper-slide" style="background-image:url(assets/img/slide.png);"></div>
+                                <div class="swiper-slide" style="background-image:url(assets/img/slide.png);"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="navbar-fixed-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-1">
+                    <img class="w-71 mt-4" src="assets/img/logo.png" alt="">
+                </div>
+                <div class="col-9"></div>
+                <div class="col-2 text-uppercase f-l">
+                    <a href="">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/site.js"></script>
 </body>
 
 </html>
