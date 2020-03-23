@@ -1,0 +1,88 @@
+html, body, .content {
+    height: 100%;
+    /*background: #E5E5E5;*/
+    background: #fff;
+}
+
+#sidebar{
+    background-color: #338FBF;
+    color: #fff;
+    position:relative;
+}
+
+#sidebar a{
+    color: #fff;
+}
+
+#sidebar .prof{
+    position: absolute;
+    bottom: 0;
+}
+
+#sidebar .body2{
+    color: #fff;
+    margin-top: 1.3125rem;
+    margin-left: -0.5rem;
+    width: 13.25rem
+}
+
+
+.connect {
+    position: relative;
+    border-radius: 1px;
+    height: 48px;
+    border: #F2C94C;
+    background: #F2C94C;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    outline: none !important;
+}
+
+#connect h3{
+    color: #4F4F4F;
+}
+
+
+#connect .title{
+    text-align: center;
+    margin-top: 14.125rem;
+    padding-bottom: 2rem;
+}
+
+#connect .connect{
+    width: 150px;
+}
+
+#new_site h3{
+    font-style: normal;
+    font-weight: normal;
+    color: #6D7587;
+    flex: none;
+    order: 3;
+    align-self: flex-start;
+    margin: 0px 0px;
+}
+
+#new_site  form .form-control {
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0.5rem;
+    height: 2.625rem;
+}
+
+#new_site .body1{
+    color: #333333;
+}
+
+#new_site textarea {
+    width: 100%;
+    background: #333333;
+    border-radius: 8px;
+    color: #fff;
+}
+#new_site .sub{
+    padding-bottom: 4.375rem;
+}

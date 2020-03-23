@@ -1,0 +1,55 @@
+.login-clean {
+    padding: 5rem 0;
+}
+
+.login-clean form {
+    max-width: 20rem;
+    width: 90%;
+    margin: 0 auto;
+    color: #505e6c;
+}
+
+.login-clean .mode .col .active{
+    border-bottom: 1px solid ;
+    pointer-events: none;
+}
+
+.login-clean a{
+    color: #000;
+}
+
+.login-clean a:hover{
+    text-decoration: none;
+}
+
+.login-clean input, button, select, optgroup, textarea ::placeholder{
+    text-align: center;
+}
+
+.login-clean form .form-control {
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0.5rem;
+    height: 2.625rem;
+}
+
+.login-clean form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.login-clean .block-error{
+    flex: none;
+    order: 15;
+    align-self: center;
+    margin: 0px 0px;
+}
+
