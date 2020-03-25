@@ -12,12 +12,13 @@
     font-size: 0.875rem;
     text-transform: uppercase;
     border-bottom: 0.5rem solid #333333;
+    background-color: #fff;
 }
 .navbar-light .navbar-toggler {
     border: none;
 }
 .navbar-light ul li{
-    margin-top: 1rem;
+    margin-top: 12px;
 }
 .navbar-light .active{
     border-bottom: 0.5rem solid #338FBF;
@@ -110,17 +111,14 @@ header #connect{
     }
     .row{
         margin: 0;
-        padding: 0 16px;
+        /*padding: 0 16px;*/
     }
     .navbar > .container {
         max-width: 100%;
         min-width: 320px;
         padding: 0 16px;
     }
-    .navbar-light {
-        height: auto;
-        padding: 14px 0;
-    }
+
     header {
         background-position: 0% 100%;
         background-size: 100%;
@@ -151,6 +149,18 @@ header #connect{
     }
 
 }
+@media screen and (max-width: 800px){
+    #example_of_use {
+        margin-top: 32rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .navbar-light {
+        height: auto;
+        padding: 14px 0;
+    }
+}
+
 @media screen and (max-width: 425px){
     header{
         height: 542px;
