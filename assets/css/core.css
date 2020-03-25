@@ -143,8 +143,8 @@ button::-moz-focus-inner {
 }
 
 #how_it_work  img{
-    margin-left: 2.9375rem;
-    padding-top: 2.875rem;
+    margin-left: 28px;
+    padding-top: 46.78px;
 }
 
 #how_it_work .items{
@@ -164,6 +164,11 @@ button::-moz-focus-inner {
 
 #how_it_work .cif-p .row{
     padding: 0;
+}
+
+#how_it_work .cif-p .body1{
+    padding-top: 33px;
+    widows: 477px;
 }
 
 #how_it_work .container .row .col-sm-6 .row{
