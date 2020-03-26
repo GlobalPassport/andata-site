@@ -504,6 +504,29 @@ footer img{
         max-width: 100%;
     }
     #cost{height: 1045px;}
+    #example_of_use .img-4 {
+        background-position: 7rem 100%;
+        background-size: 70%;
+        height: 39rem;
+    }
+    #example_of_use .img-5 {
+        background-position: 5rem 100%;
+        background-size: 75%;
+        height: 635px;
+    }
+    #offer_to_connect h4 {
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 160%;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        padding-top: 32px;
+        padding-bottom: 0px;
+    }
+    #example_of_use {
+        background: #F2F2F2;
+        margin-top: 31rem;
+    }
     footer .button_medium {
         margin-right: 0;
     }
