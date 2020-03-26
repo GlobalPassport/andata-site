@@ -83,3 +83,34 @@ button::-moz-focus-inner {
     }
 }
 
+.simple-slider .swiper-slide {
+    /*height: 31.25rem;*/
+    height: 31.95rem;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 86%;
+    background-position: center;
+}
+
+.simple-slider img{
+    width: 80%;
+    margin-top: -1.6875rem;
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    width: 3%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width:47.9375rem) {
+    .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width:47.9375rem) {
+    .simple-slider .swiper-slide {
+        height: 22.5rem;
+    }
+}

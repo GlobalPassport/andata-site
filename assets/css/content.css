@@ -97,6 +97,7 @@
 #example_of_use .container .item1{
     padding: 0 0 32px 0;
 }
+
 #example_of_use .container .item1 img{
     padding-bottom: 40px;
 }
@@ -105,9 +106,10 @@
     padding-bottom: 76px;
 }
 
-#example_of_use .align-bottom .text-left{
+#example_of_use .align-bottom .body1{
     width: 309px;
     height: 72px;
+    text-align: left;
 }
 
 #example_of_use .list1 ul, .list2 ul{
@@ -125,6 +127,10 @@
     padding-left: 24px;
 }
 
+#example_of_use .container ul li span{
+    color: #000;
+}
+
 #example_of_use .list1 li{
     list-style-image: url("../img/cross.svg");
 }
@@ -132,14 +138,149 @@
 #example_of_use .list2 li{
     list-style-image: url("../img/check.svg");
 }
+/*/////////////////////////////////////*/
+/*////////////////////////////////////*/
+#offer_to_connect{
+    background: #338FBF  url("../img/cta.svg");
+    background-repeat: no-repeat;
+    background-position: -175% 10%;
+    background-size: 77%;
+    height: 18.25rem;
+}
 
+#offer_to_connect .container {
+    margin: 0;
+    padding-left: 362px;
+    padding-top: 40px;
+}
+
+#offer_to_connect .col-sm-7 {
+    padding-right: 6.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+#offer_to_connect h4{
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 160%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+#offer_to_connect .button_medium{
+    width: 150px;
+    height: 48px;
+}
+/*////////////////////////////////////*/
+#cost {
+    background: #F2F2F2;
+    height: 591px;
+}
+#cost h2{
+    padding-top: 48px;
+    padding-bottom: 40px;
+    color: #333333;
+}
+#cost img{
+    width: 62.3%;
+}
+#cost .container .row .col-lg-1{
+    /*background-color: #0c5460;*/
+    /*border: 1px solid;*/
+}
+#cost h6,span {
+    color: #338FBF;
+}
+#cost .container .row .col-lg-5,.col-lg-6{
+    /*border: 1px solid;*/
+}
+#cost .container .row .col-lg-5 span{
+    width: 329px;
+    margin-left: 10%;
+    display: block;
+    padding-bottom: 44px;
+}
+#cost .connect {
+    width: 150px;
+    height: 42px;
+}
+#cost .down{
+    margin-top: 40px;
+}
+#cost .b-r h6{
+    color: #333333;
+}
+#cost .comment {
+    font-size: 0.875rem;
+    /*font-style:italic ;*/
+    color: #9b9797;
+}
+#cost .text-center span {
+    color: #333333;
+    margin-left: 39px;
+}
+/*////////////////////////////////////*/
+#partner{
+    background-color: #fff;
+    width: 100%;
+}
+#partner h2{
+    text-align: center;
+    color: #333333;
+}
+
+/*////////////////////////////////////*/
+footer{
+    width: 100%;
+    height: 6.8125rem;
+    background: #338FBF  url("../../assets/img/vector_footer.svg");
+    background-repeat: no-repeat;
+    background-position: -12rem 25%;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer .navbar-light {
+    background-color: #fff0;
+}
+
+footer footer .button_medium {
+    margin-right: -1.4375rem;
+    color: #fff;
+}
+
+footer .navbar-light {
+    border: none;
+    color: #fff;
+}
+
+footer .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+footer a{
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+footer .button_medium{
+    margin-right: -1.4375rem;
+    color: #fff;
+}
+
+footer img{
+    width: 3em;
+}
 /*//////////media/////////////////////*/
 @media screen and (max-width: 992px){
     #how_it_work .items {
         height: auto;
         padding-bottom: unset;
     }
-
     #how_it_work .body1 {
         width: auto;
         font-family: Montserrat;
@@ -166,31 +307,86 @@
         padding-right: 0;
         padding-bottom: 16px;
     }
-
     #how_it_work .cif-p .row .align-self-center{
         text-align: center;
         margin-top: 8px;
         padding-bottom: 20px;
     }
-
     #how_it_work .cif-p .body1 {
         width: auto;
     }
-
+    #example_of_use .container .title {
+        padding: 38px 0 60px 0;
+    }
+    #cost{height:954px }
+    #cost img {width: 35.3%;}
+    #cost .container .row .col-lg-5 span {
+        width: 329px;
+        margin-left: 27%;
+        display: block;
+        padding-bottom: 32px;
+    }
+    #cost .b-r {width: 478px;}
+    #cost .container .col-lg-5{
+        text-align: left;
+    }
+    #cost .container .row .col-lg-5 span {
+        width: 329px;
+        margin-left: 0;
+        display: block;
+        padding-bottom: 32px;
+    }
+    #cost img {
+        width: 55%;
+    }
+    #cost .justify-content-center .col-lg-6 {
+        margin-top: 0;
+        text-align: center;
+        padding-left: 0;
+    }
+    #cost .text-center span {
+        color: #333333;
+        margin-left: 39px;
+        width: 100%;
+        display: block;
+    }
+    #cost .comment {
+        font-size: 0.875rem;
+        text-align: initial;
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 800px){
+
     #how_it_work h3 {
         width: 100%;
     }
+    #example_of_use h3 {
+        width: 100%;
+    }
+    #offer_to_connect{
+        height: 13.25rem;
+        background-position: 3rem -2%;
+        background-size: 100%;
+    }
+    #offer_to_connect .container {
+        margin: 0;
+        padding: 0 16px;
+        max-width: 100%;
+    }
+
+    footer .button_medium {
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 768px){
-
     #how_it_work img {
         margin-left: 0px;
         /*width: 100%;*/
         width: 45%;
     }
-
     #how_it_work h3{
         width: 100%;
         font-style: normal;
@@ -203,7 +399,6 @@
         padding: 32px 0 111px 0;
         text-align: left;
     }
-
     #how_it_work .items {
         height: auto;
         padding-bottom: unset;
@@ -218,7 +413,9 @@
     #how_it_work .connect{
         width: 90%;
     }
-
+    #example_of_use .container .item2 {
+        padding-bottom: 32px;
+    }
     #example_of_use{
         margin-top: 19rem;
     }
@@ -232,15 +429,42 @@
         color: #000000;
         width: 100%;
     }
-
-    #example_of_use .align-bottom .text-left {
+    #example_of_use .align-bottom .body1 {
         width: 100%;
+        text-align: center;
     }
     #example_of_use .body1 {
         width: 100%;
     }
+    #example_of_use .container .item1 img{
+        padding-bottom: 16px;
+    }
+    #offer_to_connect{
+        height: 568px;
+        background: #338FBF  url("../img/center_vector.svg");
+        background-repeat: no-repeat;
+        background-position: 42% 8%;
+        background-size: 191%;
+    }
+    #offer_to_connect .mess{
+        width: 100%;
+        display: block;
+    }
+    #offer_to_connect h4{
+        padding-top: 16px;
+        padding-bottom: 340px;
+    }
+    #offer_to_connect .container .row .col-sm-12{
+        margin-top: 32px;
+        /*width: 286px;*/
+    }
+    #offer_to_connect .container .row .col-sm-12 .btn{
+        width: 100%;
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
 }
-
 @media screen and (max-width: 425px){
     #how_it_work .connect{
         width: 100%;
@@ -253,16 +477,93 @@
     #example_of_use{
         margin-top: 32rem;
     }
-
     #example_of_use h5{
         width: 100%;
     }
-
+    #offer_to_connect{
+        background-repeat: no-repeat;
+        background-position: 52% 5rem;
+        background-size: 301%;
+    }
+    #offer_to_connect h4 {
+        padding-top: 16px;
+        padding-bottom: 300px;
+    }
+    #cost .justify-content-center .col-lg-6 {
+        margin-top: 32px;
+        padding-left: 0;
+    }
+    #cost .b-r {
+        width: 100%;
+    }
+    #cost .float-left{
+        text-align: left;
+    }
+    #cost .connect {
+        width: 100%;
+        height: 42px;
+    }
+    #cost .text-center span {
+        margin-left: 0;
+    }
+    #cost .container .row .col-lg-5 span {
+        width: 100%;
+        margin-left: 0;
+    }
+    #cost img {
+        width: 45%;
+    }
+    #cost {
+        height: 875px;
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
 }
+@media screen and (max-width: 375px){
+    #offer_to_connect h4 {
+        padding-top: 16px;
+        padding-bottom: 216px;
+    }
+    #cost{
+        height: 1070px;
+    }
+    #cost h2 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-top: 32px;
+        padding-bottom: 16px;
+        color: #333333;
+    }
+    #cost .container .col-lg-5 {
+        text-align: center;
+    }
+    #cost img {
+        width: 100%;
+    }
+    #cost .b-r {
+        text-align: left;
+    }
 
+    footer {
+        background-position: -9rem 17%;
+        background-size: 165%;
+        width: 100%;
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
+}
 @media screen and (max-width: 320px){
-
     #example_of_use{
         margin-top: 39rem;
+    }
+    footer {
+        background-position: -9rem 17%;
+        background-size: 165%;
+        width: 100%;
+    }
+    footer .button_medium {
+        margin-right: 0;
     }
 }
