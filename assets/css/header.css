@@ -177,8 +177,8 @@ header #connect{
 @media screen and (max-width: 425px){
     header{
         height: 490px;
-        background-position: 91% 160%;
-        background-size: 217%;
+        background-position: 91% 246%;
+        background-size: 209%;
     }
     header .container .row .justify-content-center{
         /*text-align: center;*/
@@ -207,9 +207,9 @@ header #connect{
 
 }
 @media screen and (max-width: 375px){
-    header{
-        background-position: 90% 142%;
-        background-size: 230%;
+    header {
+        background-position: 90% 207%;
+        background-size: 220%;
     }
 }
 @media screen and (max-width: 320px){
