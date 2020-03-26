@@ -107,7 +107,7 @@ header .connect {
     color: #333333;
 }
 header #connect{
-    padding-top: 53px;
+    padding-top: 60px;
 }
 
 
@@ -166,11 +166,7 @@ header #connect{
         margin-top: 8px;
     }
 }
-@media screen and (max-width: 800px){
-    #example_of_use {
-        margin-top: 32rem;
-    }
-}
+
 @media screen and (max-width: 767px){
     .navbar-light {
         height: auto;
@@ -180,7 +176,7 @@ header #connect{
 
 @media screen and (max-width: 425px){
     header{
-        height: 479px;
+        height: 490px;
         background-position: 91% 160%;
         background-size: 217%;
     }
@@ -188,7 +184,7 @@ header #connect{
         /*text-align: center;*/
     }
     header .container .row .col-sm-6 h2 {
-        padding-top: 32px;
+        padding-top: 39px;
     }
     header .container .row .col-sm-6  h4 {
         padding-top: 0;
@@ -200,7 +196,7 @@ header #connect{
         /*padding-top: 250px;*/
     }
     header .container .row p {
-        padding-top: 0;
+        padding-top: 6px;
     }
     header #connect {
         padding-top: 32px;
@@ -208,6 +204,7 @@ header #connect{
     header .connect {
         width: 100%;
     }
+
 }
 @media screen and (max-width: 375px){
     header{
@@ -217,7 +214,7 @@ header #connect{
 }
 @media screen and (max-width: 320px){
     header{
-        background-position: 89% 166%;
+        background-position: 89% 157%;
         background-size: 210%;
     }
 }

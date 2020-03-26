@@ -2,6 +2,10 @@ html {
     min-height: 100%;
 }
 
+.clearfix{
+    margin:0;
+    padding:0;
+}
 body{
     font-family: Montserrat, Regular;
     font-style: normal;
@@ -109,8 +113,10 @@ button::-moz-focus-inner {
     }
 }
 
-@media (max-width:47.9375rem) {
-    .simple-slider .swiper-slide {
-        height: 22.5rem;
-    }
+/*@media (max-width:47.9375rem) {*/
+    /*.simple-slider .swiper-slide {*/
+        /*height: 22.5rem;*/
+    /*}*/
 }
+
+
