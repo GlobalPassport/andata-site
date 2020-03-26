@@ -47,7 +47,7 @@ header {
     background-color: #338FBF;
     background: #338FBF url("../../assets/img/Digital_pasport.svg") ;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 6.3rem 3.2rem;
     background-size: 100%;
 }
 header h2{
@@ -69,8 +69,19 @@ header h4{
     letter-spacing: 0.25px;
     margin-bottom: 0;
 }
-header h2, h4{
+header h2, h4 {
     color: #FFFFFF;
+}
+header .container .row p{
+    padding-top: 60px;
+    font-family: Montserrat, SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.15px;
+    width: 531px;
+    height: 96px;
 }
 header .container .row .col-sm-6 h2 {
     padding-top: 43px;
@@ -98,6 +109,9 @@ header .connect {
 header #connect{
     padding-top: 53px;
 }
+
+
+
 @media screen and (max-width: 992px){
     .navbar-brand{
         font-family: Montserrat,Regular;
@@ -135,19 +149,22 @@ header #connect{
         margin: 0px 0px;
         width: 100%;
     }
-    header h4 {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 28px;
-        /*text-align: center;*/
-        color: #FFFFFF;
-        flex: none;
-        order: 2;
-        margin: 0px 0px;
-        width: 100%;
+    header p {
+
     }
 
+    header .container .row p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+
+        width: 288px;
+        height: 96px;
+        text-align: left;
+        margin-top: 8px;
+    }
 }
 @media screen and (max-width: 800px){
     #example_of_use {
@@ -163,14 +180,13 @@ header #connect{
 
 @media screen and (max-width: 425px){
     header{
-        height: 542px;
+        height: 479px;
         background-position: 91% 160%;
         background-size: 217%;
     }
     header .container .row .justify-content-center{
-        text-align: center;
+        /*text-align: center;*/
     }
-
     header .container .row .col-sm-6 h2 {
         padding-top: 32px;
     }
@@ -181,7 +197,13 @@ header #connect{
     }
     header #connect{
         /*padding-top: 256px;*/
-        padding-top: 250px;
+        /*padding-top: 250px;*/
+    }
+    header .container .row p {
+        padding-top: 0;
+    }
+    header #connect {
+        padding-top: 32px;
     }
     header .connect {
         width: 100%;
@@ -195,7 +217,7 @@ header #connect{
 }
 @media screen and (max-width: 320px){
     header{
-        background-position: 89% 121%;
-        background-size: 230%;
+        background-position: 89% 166%;
+        background-size: 210%;
     }
 }

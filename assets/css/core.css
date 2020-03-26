@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    font-family: Montserrat;
+    font-family: Montserrat, Regular;
     font-style: normal;
     font-weight: normal;
     background-color: #fff;
@@ -85,7 +85,7 @@ button::-moz-focus-inner {
 
 .simple-slider .swiper-slide {
     /*height: 31.25rem;*/
-    height: 31.95rem;
+   height: 190px;
     background-repeat: no-repeat;
     /*background-size: cover;*/
     background-size: 86%;
