@@ -5,7 +5,7 @@ $(function(){
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        width: 320,
+        width: 280,
         updateOnWindowResize: true
         // height: 90
     });

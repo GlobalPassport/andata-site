@@ -196,26 +196,18 @@
 /*/////////////////////////////////////*/
 /*////////////////////////////////////*/
 #offer_to_connect{
-    background: #338FBF  url("../img/cta.svg");
-    background-repeat: no-repeat;
-    /*background-position: -33rem 11%;*/
-
-    background-position-x: -31rem;
-    background-position-y: 11%;
-    background-size: -4rem;
+    background-color: #338FBF;
     height: 18.25rem;
 }
 
-#offer_to_connect .container {
-    margin: 0;
-    padding-left: 362px;
-    padding-top: 40px;
+#offer_to_connect img{
+    position: absolute;
+    right: calc(100% - 6.5rem);
+    top: -6rem;
 }
 
-#offer_to_connect .col-sm-7 {
-    padding-right: 6.25rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+#offer_to_connect .justify-content-center .col-lg-7{
+    margin: 0.5rem 0 0 16.5rem;
 }
 
 #offer_to_connect h4{
@@ -225,7 +217,7 @@
     letter-spacing: 0.25px;
     color: #FFFFFF;
     padding-top: 32px;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
 }
 
 #offer_to_connect .button_medium{
@@ -236,7 +228,11 @@
 #offer_to_connect .mess{
     width: 562px;
     display: block;
+    margin-top: 40px;
 }
+
+#offer_to_connect  .mob {display: none}
+#offer_to_connect .desk  {display: flex}
 /*////////////////////////////////////*/
 #cost {
     background: #F2F2F2;
@@ -601,14 +597,14 @@ footer img{
     }
     #offer_to_connect{
         height: 568px;
-        background: #338FBF  url("../img/center_vector.svg");
-        background-repeat: no-repeat;
-        background-position: 42% 8%;
-        background-size: 191%;
+        /*background: #338FBF  url("../img/center_vector.svg");*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: 42% 8%;*/
+        /*background-size: 191%;*/
     }
     #offer_to_connect .mess{
-        width: 100%;
-        display: block;
+        /*width: 100%;*/
+        /*display: block;*/
     }
     #offer_to_connect h4{
         padding-top: 16px;
@@ -695,9 +691,9 @@ footer img{
         /*margin-left: 6%;*/
     }
     #offer_to_connect{
-        background-repeat: no-repeat;
-        background-position: 52% 5rem;
-        background-size: 301%;
+        /*background-repeat: no-repeat;*/
+        /*background-position: 52% 5rem;*/
+        /*background-size: 301%;*/
     }
     #offer_to_connect h4 {
         padding-top: 16px;
@@ -734,9 +730,9 @@ footer img{
         left: 52px;
     }
     #offer_to_connect {
-        background-repeat: no-repeat;
-        background-position: 52% 0rem;
-        background-size: 301%;
+        /*background-repeat: no-repeat;*/
+        /*background-position: 52% 0rem;*/
+        /*background-size: 301%;*/
     }
     #example_of_use .img-1 {
         background-position: 1rem 100%;
@@ -784,7 +780,7 @@ footer img{
 @media screen and (max-width: 375px){
     #offer_to_connect h4 {
         padding-top: 16px;
-        padding-bottom: 180px;
+        padding-bottom: 216px;
     }
     #example_of_use .img-1 {
         background-position: 1rem 100%;
@@ -880,11 +876,35 @@ footer img{
     #cost {
         height: 990px;
     }
-    #offer_to_connect {
-        background-repeat: no-repeat;
-        background-position: 52% 6rem;
-        background-size: 301%;
+    #offer_to_connect .container-fluid{
+        padding: 0 16px;
     }
+    #offer_to_connect {
+        /*background-repeat: no-repeat;*/
+        /*background-position: 52% 6rem;*/
+        /*background-size: 301%;*/
+    }
+    #offer_to_connect img {
+        position: absolute;
+        right: calc(100% - 38rem);
+        top: 6.1rem;
+        width: 60rem;
+        transform: rotate(205deg);
+    }
+    #offer_to_connect .mess{
+        width: auto;
+        display: block;
+        margin-top: 32px;
+    }
+    #offer_to_connect .justify-content-center .col-lg-7 {
+        margin: 0;
+    }
+    #offer_to_connect .button_medium {
+        width: 100%;
+        height: 48px;
+    }
+    #offer_to_connect .mob {display: flex}
+    #offer_to_connect .desk {display: none}
 
     footer {
         background-position: -9rem 17%;

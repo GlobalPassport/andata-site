@@ -92,10 +92,13 @@ button::-moz-focus-inner {
    height: 190px;
     background-repeat: no-repeat;
     /*background-size: cover;*/
-    background-size: 86%;
+    /*background-size: 86%;*/
+    background-size: 100%;
     background-position: center;
 }
+.swiper-wrapper{
 
+}
 .simple-slider img{
     width: 80%;
     margin-top: -1.6875rem;
@@ -103,8 +106,8 @@ button::-moz-focus-inner {
 
 .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
     width: 3%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -9px;
+    margin-right: -9px;
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
@@ -120,21 +123,35 @@ button::-moz-focus-inner {
     background-size: 176%;
 }
 
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #338FBF;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+display: none;
+}
 @media (max-width:47.9375rem) {
     .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
-        display: none;
+        /*display: none;*/
     }
 }
 
  .mob {display: none}
  .desk  {display: flex}
+
 @media screen and (max-width: 800px){
  .mob {display: flex}
  .desk {display: none}
-
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next ,
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+        display: none;
+    }
     .simple-slider .swiper-slide {
         background-size: 104%;
         margin-left: -0.4rem;
+    }
+    .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        display: block ;
     }
 }
 
