@@ -6,8 +6,8 @@
 
 #how_it_work h3{
     width: 976px;
-    height: 57px;
-    padding: 36px 0 106px 0;
+    /*height: 57px;*/
+    padding: 36px 0 50px 0;
     color: #333333;
 }
 
@@ -77,8 +77,8 @@
 #how_it_work .i-6{width: 350px}
 /*////////////////////////////////////*/
 
-#example_of_use .m {display: none}
-#example_of_use .d  {display: flex}
+/*#example_of_use .m {display: none}*/
+/*#example_of_use .d  {display: flex}*/
 
 #example_of_use{
     /*height: 1254px;*/
@@ -198,8 +198,11 @@
 #offer_to_connect{
     background: #338FBF  url("../img/cta.svg");
     background-repeat: no-repeat;
-    background-position: -33rem 11%;
-    background-size: 100%;
+    /*background-position: -33rem 11%;*/
+
+    background-position-x: -31rem;
+    background-position-y: 11%;
+    background-size: -4rem;
     height: 18.25rem;
 }
 
@@ -441,7 +444,7 @@ footer img{
     #example_of_use h5 {
         padding: 0;
         text-align: center;
-        margin-left: 15rem;
+        /*margin-left: 16%;*/
     }
     #cost{height: 1045px;}
     #cost img {width: 35.3%;}
@@ -491,8 +494,8 @@ footer img{
     #example_of_use h3 {
         width: 100%;
     }
-    #example_of_use .m {display: flex}
-    #example_of_use .d {display: none}
+    /*#example_of_use .m {display: flex}*/
+    /*#example_of_use .d {display: none}*/
     #offer_to_connect{
         height: 13.25rem;
         background-position: 3rem -2%;
@@ -548,7 +551,7 @@ footer img{
         letter-spacing: 0.25px;
         color: #333333;
         margin: 0px 0px;
-        padding: 32px 0 111px 0;
+        padding: 32px 0 32px 0;
         text-align: left;
     }
     #how_it_work .items {
@@ -688,8 +691,8 @@ footer img{
         /*margin-top: 32rem;*/
     }
     #example_of_use h5 {
-        width: 68%;
-        margin-left: 4rem;
+        width: 100%;
+        /*margin-left: 6%;*/
     }
     #offer_to_connect{
         background-repeat: no-repeat;
@@ -859,7 +862,7 @@ footer img{
     }
     #example_of_use h5 {
         width: 100%;
-        margin-left: 0rem;
+        /*margin-left: 4%;*/
     }
     #how_it_work {
         height: 1120px;
