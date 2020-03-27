@@ -198,6 +198,7 @@
 #offer_to_connect{
     background-color: #338FBF;
     height: 18.25rem;
+    overflow: hidden;
 }
 
 #offer_to_connect img{
@@ -231,7 +232,9 @@
     margin-top: 40px;
 }
 
-#offer_to_connect  .mob {display: none}
+
+
+#offer_to_connect .mob {display: none}
 #offer_to_connect .desk  {display: flex}
 /*////////////////////////////////////*/
 #cost {
