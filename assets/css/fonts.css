@@ -1,0 +1,187 @@
+h1{
+    font-family: Montserrat, ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 112px;
+    letter-spacing: -1.5px;
+    color: #C4C4C4;
+}
+
+h2{
+    font-family: Montserrat, ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 71px;
+    letter-spacing: -0.5px;
+    color: #C4C4C4;
+}
+
+h3{
+    font-family: Montserrat, ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    color: #C4C4C4;
+}
+
+h4{
+    font-family: Montserrat, Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    color: #C4C4C4;
+}
+
+h5{
+    font-family: Montserrat, Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+
+h6{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #C4C4C4;
+}
+
+.subtitle1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #C4C4C4;
+}
+
+.subtitle2{
+    font-family: Montserrat, Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #C4C4C4;
+}
+
+body, .body1{
+    font-family: Montserrat, Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #C4C4C4;
+}
+
+.body2{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #C4C4C4;
+}
+
+.mess{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 18px;*/
+    font-size: 1.125rem;
+    line-height: 160%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+
+.button_medium{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.caption_regular{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #C4C4C4;
+}
+
+.overline_regular{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.setelem_block{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.setelem_heading{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px; letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.setelem_arrow{
+    font-family: Montserrat, Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+@media (max-width: 50rem) {
+    h2{
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 57px;
+    }
+
+    h3{
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.25px;
+    }
+
+    h4{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
