@@ -304,9 +304,29 @@
 #partner h2{
     text-align: center;
     color: #333333;
-    padding: 48px 0 0 0 ;
+    padding: 48px 0 48px 0;
 }
 
+/*////////////////////////////////////*/
+
+#contacts {
+    /*height: calc(100vh - 10.5rem);*/
+    height: calc(100vh - 17rem);
+    margin-top: 2.5rem;
+}
+
+#contacts h2{
+    color: #000;
+}
+
+#contacts .body1{
+    color: #212529;
+}
+
+#contacts .map{
+    height: 378.53px;
+    /*padding-bottom: 3rem;*/
+}
 /*////////////////////////////////////*/
 footer{
     width: 100%;
@@ -315,9 +335,14 @@ footer{
     background-repeat: no-repeat;
     background-position: -12rem 25%;
     background-size: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
+
+footer .navbar{
+    padding: 1rem 0 0 0;
+}
+
 footer .navbar-light {
     background-color: #fff0;
 }
@@ -682,6 +707,11 @@ footer img{
     #partner .swiper-container {
         width: 100%;
     }
+
+
+    #contacts {
+        height: calc(100vh - 0rem);
+    }
     footer .navbar-light {
         padding: 0;
     }
@@ -758,6 +788,9 @@ footer img{
         padding-top: 16px;
         padding-bottom: 300px;
     }
+    #offer_to_connect .connect{
+        width: 100%;
+    }
 
     #cost .justify-content-center .col-lg-6 {
         padding-left: 0;
@@ -787,7 +820,10 @@ footer img{
         width: 45%;
     }
     #cost .rub-image {
-        left: 52px;
+        left: 0;
+        width: 100%;
+        background-size: 84%;
+        background-position: center bottom;
     }
 
     footer .button_medium {
@@ -799,13 +835,24 @@ footer img{
         background-repeat: no-repeat;
         background-position: -6rem 25%;
         background-size: 100%;
-        bottom: 0;
+
     }
 }
 @media screen and (max-width: 414px) {
     #offer_to_connect h4 {
         padding-top: 16px;
         padding-bottom: 270px;
+    }
+    /*#how_it_work {*/
+    /*    height: 84rem;*/
+    /*    color: #333333;*/
+    /*    padding-bottom: 70px;*/
+    /*}*/
+
+    #how_it_work {
+        height: 1020px;
+        color: #333333;
+        padding-bottom: 70px;
     }
 }
 @media screen and (max-width: 375px){
@@ -814,6 +861,7 @@ footer img{
         color: #333333;
         padding-bottom: 70px;
     }
+
 
     #example_of_use .img-1 {
         background-position: 1rem 100%;
@@ -858,6 +906,7 @@ footer img{
         background-size: 165%;
         width: 100%;
     }
+
     footer .button_medium {
         margin-right: 0;
     }
@@ -961,3 +1010,12 @@ footer img{
         margin-right: 0;
     }
 }
+
+
+.multi-carousel{overflow:hidden}
+.multi-carousel .carousel-control-prev,.multi-carousel .carousel-control-next{background:rgba(255,255,255,0.5);width:5%}
+.multi-carousel .carousel-inner{width:310%;left:-80%}
+.carousel-inner .carousel-item-right.active,.carousel-inner .carousel-item-next{transform:translateX(75%)}
+.carousel-inner .carousel-item-left.active,.carousel-inner .carousel-item-prev{transform:translateX(-75%)}
+.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left{transform:translateX(0)}
+.item-third{float:left;width:25%;background-size:cover;height:auto}

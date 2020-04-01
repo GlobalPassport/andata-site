@@ -1,6 +1,9 @@
+
+
+
 <?php get_header(); ?>
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main">
+<!--    <div id="primary" class="content-area">-->
+<!--        <main id="main" class="site-main">-->
             <?php
             if ( have_posts() ) {
                 while ( have_posts() ) {
@@ -14,6 +17,6 @@
             }
             ?>
 
-        </main>
-    </div>
+<!--        </main>-->
+<!--    </div>-->
 <?php get_footer(); ?>

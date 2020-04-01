@@ -1,14 +1,27 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html <?php language_attributes(); ?>>
+<!--<![endif]-->
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=<?php bloginfo('charset'); ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title><?php wp_title('«', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<!--    <title>--><?php //wp_title('', false, ''); ?><!-- --><?php //bloginfo('name'); ?><!--</title>-->
+    <title><?php echo wp_get_document_title(); ?></title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+<div class="preloader">
+    <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+    </div>
+</div>
+
 <div class="wrapper">
+
     <nav class=" navbar navbar-light navbar-expand-md fixed-top">
         <div class="container">
             <a class="navbar-brand text-uppercase button_medium" href="/">
@@ -25,5 +38,3 @@
             </div>
         </div>
     </nav>
-
-

@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6" id="connect">
-                    <button class="btn connect"  type="button">подключить</button>
+                    <a href="https://lk.andata.ru/register" target="_blank"><button class="btn connect"  type="button">подключить</button></a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <button class="btn connect" type="button">подключить</button>
+                                <a href="https://lk.andata.ru/register" target="_blank"><button class="btn connect"  type="button">подключить</button></a>
                             </div>
                             <div class="col-md-6 align-self-center"> <span class="body1 ">30 дней бесплатно</span></div>
                         </div>
@@ -98,7 +98,7 @@
                         <div class="text-center align-bottom">
                             <div class="group-image-1 img-1" title="Посетитель использует смартфон. Цифровой паспорт андата отслеживает его действия "></div>
                             <div class="body1">
-                                Утром, <strong>со смартфона</strong> <br>покупатель узнает о новом товаре и переходит по рекламе Google
+                                Утром <strong>со смартфона</strong> <br>покупатель узнает о новом товаре и переходит по рекламе Google
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                         <div class="text-center align-bottom">
                             <div class="group-image-1 img-2" title="Посетитель заходит с пк. Цифровой паспорт андата дополняет данные профиля пользователя"></div>
                             <div class="body1">
-                                В обед, <strong>с рабочего компьютера</strong> переходит по рекламе Yandex, чтобы изучить товар
+                                В обед <strong>с рабочего компьютера</strong> переходит по рекламе Yandex, чтобы изучить товар
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                         <div class="text-center align-bottom">
                             <div class="group-image-1 img-3" title="Посетитель с планшета покупает товар. Нейросеть и машинное обучение фомируют цифровой паспорт андата   "></div>
                             <div class="body1">
-                                Вечером дома, <strong>с планшета</strong><br> сразу заходит на сайт и совершает покупку
+                                Вечером дома <strong>с планшета</strong><br> сразу заходит на сайт и совершает покупку
                             </div>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                             не позволяют отследить и объединить действия пользователя с разных устройств, каналов и браузеров.
                             </span>
                     <h4>Цифровой паспорт решает эту задачу!</h4>
-                    <button class="btn connect button_medium" type="button">подключить</button>
+                    <a href="https://lk.andata.ru/register" target="_blank"><button class="btn connect"  type="button">подключить</button></a>
                 </div>
             </div>
         </div>
@@ -224,7 +224,7 @@
                 <div class="col-md-12  col-lg-6 center ">
                     <div class="rub-image" title="Стоимость цифрового паспорта андата">
                         <h6>1 ₽ / месяц</h6>
-                        <span>за каждый цифровой паспорт<br>  который создан или дополнен</span>
+                        <span>за каждый цифровой паспорт,<br>  который создан или дополнен</span>
                     </div>
 
                 </div>
@@ -248,7 +248,7 @@
                             </div>
                             <div class="row">
                                 <div class="col  mt-4">
-                                    Система <u>Andata</u> объединла и выявила
+                                    Система <u>Andata</u> объединила и выявила
                                 </div>
                             </div>
                             <div class="row">
@@ -266,7 +266,7 @@
                     <div class="row down">
                         <div class="b-r">
                             <div class="col-md-12 d-inline-block">
-                                <button class="btn connect " type="button">подключить</button>
+                                <a href="https://lk.andata.ru/register" target="_blank"><button class="btn connect"  type="button">подключить</button></a>
                                 <span class="body1">30 дней бесплатно</span>
                             </div>
 
@@ -286,28 +286,39 @@
                     <h2>Партнеры</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
 
-                <div class="col">
-                    <div class="simple-slider">
-                        <div class="swiper-container" style=" ">
-                            <div class="swiper-wrapper ">
-                                <div class="swiper-slide" style="background-image:url(<?=get_template_directory_uri()?>/assets/img/sber.svg);" title="Логотип сбербанк партнер Андата"></div>
-                                <div class="swiper-slide" style="background-image:url(<?=get_template_directory_uri()?>/assets/img/sk.svg);" title="Логотип сколково партнер Андата"></div>
-                                <div class="swiper-slide" style="background-image:url(<?=get_template_directory_uri()?>/assets/img/vtb.svg);" title="Логотип ВТБ партнер Андата"></div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
+
+
+
+                <div class="owl-carousel owl-theme ">
+                    <div class="item"><img src="<?=get_template_directory_uri()?>/assets/img/sber.svg" alt="Логотип сбербанк партнер Андата"></div>
+                    <div class="item"><img src="<?=get_template_directory_uri()?>/assets/img/sk.svg" alt="Логотип сколково партнер Андата"></div>
+                    <div class="item"><img src="<?=get_template_directory_uri()?>/assets/img/vtb.svg" alt="Логотип ВТБ партнер Андата"></div>
+
                 </div>
+
+
+
+
+
 
 
 
             </div>
         </div>
+
+
+
+
+
+
     </section>
+
+
+
+
+
 
 <?php endwhile; endif; ?>
 
