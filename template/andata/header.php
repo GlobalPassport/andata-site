@@ -5,10 +5,10 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="g3t47Xc7mxzNDUBP1XCLiexZg2-7-x-jObgQapRqB1A" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<!--    <title>--><?php //wp_title('', false, ''); ?><!-- --><?php //bloginfo('name'); ?><!--</title>-->
-    <title><?php echo wp_get_document_title(); ?></title>
+    <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -22,8 +22,10 @@
 
 <div class="wrapper">
 
-    <nav class=" navbar navbar-light navbar-expand-md fixed-top">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top">
         <div class="container">
+
+
             <a class="navbar-brand text-uppercase button_medium" href="/">
                 <strong class="">Andata</strong>&nbsp;digital passport
             </a>
@@ -31,6 +33,8 @@
                 <span class="sr-only">Toggle navigation</span>
                 <span class=""> <img src="<?=get_template_directory_uri()?>/assets/img/Vector.svg" alt=""></span>
             </button>
+
+
             <div class="collapse navbar-collapse justify-content-end" id="navcol-1">
                 <div class="nav navbar-nav">
                     <?php wp_nav_menu(array('menu' => 'top-menu', 'menu_class' => 'top-menu')); ?>

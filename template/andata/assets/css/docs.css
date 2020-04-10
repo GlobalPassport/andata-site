@@ -1,0 +1,55 @@
+/*#docs{margin-top: 33px;}*/
+
+#docs h2{
+    color: #333333;
+    /*padding-top: 32px;*/
+    padding: 2rem 0;
+}
+
+#docs p{
+    margin-bottom: 0.5rem;
+}
+
+#docs ol {
+    list-style: none;
+    counter-reset: li;
+}
+#docs li:before {
+    counter-increment: li;
+    content: counters(li,".") ". ";
+}
+
+#docs li{
+    padding-top: 1rem;
+}
+
+#docs ol, ol li ol { padding-left: 0}
+
+
+#docs ol li ol{margin-top: 0.6rem;}
+
+#docs ol li ol li ol{margin-top: 0}
+
+#docs .date{
+    padding-bottom: 48px;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #docs h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        text-align: left;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #docs  ol li, #docs p{
+        color: #000000;
+    }
+}

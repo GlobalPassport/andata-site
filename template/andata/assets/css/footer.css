@@ -1,0 +1,216 @@
+footer{
+    width: 100%;
+    height: 6.8125rem;
+    background: #338FBF  url("../../assets/img/vector_footer.svg");
+    background-repeat: no-repeat;
+    background-position: -12rem 25%;
+    background-size: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer .navbar{
+    padding: 1rem 0 0 0;
+}
+
+footer .navbar-light {
+    background-color: #fff0;
+}
+
+footer .button_medium {
+    margin-right: -1.4375rem;
+    color: #fff;
+}
+
+footer .navbar-light {
+    border: none;
+    color: #fff;
+}
+
+footer .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+footer a{
+    line-height: 1rem;
+    text-decoration: underline;
+}
+
+footer .subtitle1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: none;
+}
+
+footer img{
+    width: 3em;
+}
+
+
+footer ul{
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 0px 0px 24px;
+
+}
+
+footer .nav-link {
+
+    padding: 0;
+
+}
+
+footer .top-menu ol, footer  ul, footer  dl {
+    margin-top: 0;
+}
+
+
+footer dl, footer  ol,footer   ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer .navbar-light ul li, .top-menu ul li {
+    margin: 0;
+    /*padding: 0;*/
+    padding: 8px 0 0px 0;
+}
+
+
+@media screen and (max-width: 992px){
+    footer .button_medium {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 800px){
+
+    footer .button_medium {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px){
+
+    footer .navbar {
+        padding: 0;
+        height: 100%;
+
+    }
+
+    footer .navbar-light {
+        padding: 0;
+    }
+    footer{
+        height: 80px;
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
+    footer img {
+        width: 29.25px;
+    }
+
+    footer ul{
+        text-align: right;
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+        width: 65%;
+
+    }
+
+
+    footer .navbar-light ul li, .top-menu ul li {
+
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 475px){
+
+    footer {
+        width: 100%;
+        /*background: #338FBF url(../../assets/img/iPhoneSE36.svg);*/
+        background: #338FBF url(../../assets/img/Group_81.svg);
+        background-repeat: no-repeat;
+        background-position-x: -635px;
+        background-size: 376%;
+        background-position-y: 23.8%;
+        height: 136px;
+    }
+
+    footer .navbar > .container {
+
+        padding: 0 16px;
+        height: 100%;
+
+    }
+
+    footer  img{
+        width: 36.47px;
+
+    }
+
+    footer .navbar-light .navbar-brand {
+
+        /*margin-top: 20px;*/
+
+    }
+
+    footer .navbar-light ul li, .top-menu ul li {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 16px;
+
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    footer .button_medium {
+        margin-right: 0;
+    }
+
+
+
+
+}
+@media screen and (max-width: 375px){
+    footer {
+        width: 100%;
+        background-position-y: 24.2%;
+        background-position-x: -662px;
+        background-size: 376%;
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 320px){
+    /*footer {*/
+    /*    background-position: bottom;*/
+    /*    background-position-x: 0;*/
+    /*    background-size: 100%;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    footer {
+
+        background-position: bottom;
+        background-position-x: -560px;
+        background-size: 376%;
+        width: 100%;
+        background-position-y: 22.8%;
+
+    }
+    footer .button_medium {
+        margin-right: 0;
+    }
+}

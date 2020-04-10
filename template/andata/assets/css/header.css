@@ -71,14 +71,11 @@ header {
     color: #FFFFFF;
     width: 100%;
     height: 460px;
-    /*background-color: #338FBF;*/
-    /*background: #338FBF url("../../assets/img/Digital_pasport.svg") ;*/
-    background: #338FBF url("../../assets/img/Main.svg") ;
+    background: #338FBF url(../../assets/img/Main.svg);
     background-repeat: no-repeat;
-    background-position: 26.4rem -3.5rem;
-    background-size: 80%;
-    /*margin-top: -2rem;*/
+
 }
+
 header h1{
     color: #FFFFFF;
     width: 369px;
@@ -123,7 +120,50 @@ header #connect{
     padding-top: 60px;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 767px){
+    .navbar-light {
+        height: auto;
+        padding: 14px 0;
+    }
+
+    .navbar-nav, .top-menu {
+        display: contents;
+        text-align: center;
+    }
+    .navbar-light, .top-menu {
+        /*border: none;*/
+        /*border-bottom: 0.5rem solid #333333;*/
+    }
+    .m-bord{
+        /*border-bottom: 0.5rem solid #333333;*/
+        /*position: relative;*/
+    }
+}
+@media (min-width: 1441px) and (max-width: 2560px){
+    header{
+        background-size: 32%;
+        background-position: bottom;
+        background-position-x: 65%;
+        background-position-y: 19%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+    header{
+        background-size: 58%;
+        background-position: bottom;
+        background-position-x: 138%;
+        background-position-y: 19%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1024px){
+   header{
+       background-size: 80%;
+       background-position: bottom;
+       background-position-x: 208%;
+       background-position-y: 19%;
+   }
+}
+@media (min-width: 768px) and (max-width: 992px){
     .navbar-brand{
         font-family: Montserrat,Regular;
         font-style: normal;
@@ -145,8 +185,10 @@ header #connect{
     }
 
     header {
-        background-position: 15rem 57%;
-        background-size: 90%;
+        background-size: 106%;
+        background-position: bottom;
+        background-position-x: 11rem;
+        background-position-y: 19%;
     }
     header h2 {
         font-style: normal;
@@ -160,7 +202,7 @@ header #connect{
         margin: 0px 0px;
         width: 100%;
     }
-    header p {
+    header .container .row p {
 
     }
 
@@ -177,7 +219,10 @@ header #connect{
         margin-top: 8px;
     }
 }
-@media screen and (max-width: 767px){
+@media (min-width: 426px) and (max-width: 767px){
+    .navbar > .container {
+        padding: 0 16px;
+    }
     .navbar-light {
         height: auto;
         padding: 14px 0;
@@ -195,7 +240,7 @@ header #connect{
         display: contents;
     }
 }
-@media screen and (max-width: 425px){
+@media (min-width: 376px) and (max-width: 425px){
     header{
         height: 490px;
         background-position: 58% 13rem;
@@ -219,6 +264,7 @@ header #connect{
     }
     header .container .row p {
         padding-top: 6px;
+        width: 100%;
     }
     header #connect {
         padding-top: 32px;
@@ -230,18 +276,45 @@ header #connect{
 }
 @media  (max-width: 375px){
     header {
-        /*background-position: 90% 207%;*/
-        /*background-size: 220%;*/
+        height: 479px;
+        margin-top: 2.7rem;
         background-position: 55% 13.5rem;
         background-size: 153%;
 
+    }
+    header h1{width: 100%}
+    header .connect{
+        width: 100%;
+    }
+    header .container .row p {
+        width: 100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 @media  (max-width: 320px){
     header{
         /*background-position: 89% 157%;*/
         /*background-size: 210%;*/
-        background-position: 50% 14.1rem;
+        background-position: 50% 13.4rem;
         background-size: 170%;
+    }
+
+    header .container .row .col-sm-6 h1 {
+        padding-top: 32px;
+    }
+
+    header .container .row p {
+        padding-top: 10px;
+    }
+
+    header #connect {
+        padding-top: 32px;
+    }
+
+    .navbar > .container {
+        padding: 0 16px;
     }
 }

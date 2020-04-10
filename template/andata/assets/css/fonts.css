@@ -8,6 +8,12 @@
 /*    color: #C4C4C4;*/
 /*}*/
 
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+
 h1{
     font-family: Montserrat, ExtraBold;
     font-style: normal;
@@ -15,7 +21,8 @@ h1{
     font-size: 60px;
     line-height: 71px;
     letter-spacing: -0.5px;
-    color: #C4C4C4;
+    /*color: #C4C4C4;*/
+    color: #333333;
 }
 
 h2{
@@ -24,6 +31,16 @@ h2{
     font-weight: 800;
     font-size: 48px;
     line-height: 57px;
+    /*color: #C4C4C4;*/
+    color: #333333;
+}
+
+h3{
+    font-family: Montserrat, Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
     color: #C4C4C4;
 }
 
@@ -34,15 +51,6 @@ h4{
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.25px;
-    color: #C4C4C4;
-}
-
-h3{
-    font-family: Montserrat, Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
     color: #C4C4C4;
 }
 
@@ -167,6 +175,30 @@ body, .body1{
     color: #C4C4C4;
 }
 
+
+.wp-block-latest-posts  li a {
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+
+.sub_title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+
 @media (max-width: 50rem) {
     h1{
         font-weight: 800;
@@ -202,4 +234,13 @@ body, .body1{
         font-size: 24px;
         line-height: 28px;
     }
+
+
+
+    h6{
+
+    }
+
+
+
 }

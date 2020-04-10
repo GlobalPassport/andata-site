@@ -8,7 +8,12 @@
             <a class="navbar-brand text-uppercase button_medium logo" href="/">
                 <img src="<?=get_template_directory_uri()?>/assets/img/logo.svg" alt="">
             </a>
-            <a class="nav-link button_medium " href="/contacts">Контакты</a>
+            <ul>
+                <li> <a class="nav-link subtitle1 " href="/contacts">Контакты</a></li>
+                <li><a class="nav-link subtitle1 " href="https://andata.ru/%d1%81%d0%be%d0%b3%d0%bb%d0%b0%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be-%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b4%d0%b5%d0%bd%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d0%b8/">Политика конфиденциальности</a></li>
+            </ul>
+
+
         </div>
     </nav>
 </div>

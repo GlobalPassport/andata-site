@@ -1,0 +1,305 @@
+
+.navbar{
+    padding: 0
+}
+.navbar > .container{
+    max-width: 1024px;
+    min-width: 320px;
+    padding: 0 24px;
+}
+.navbar-light , .top-menu {
+    width: 100%;
+    height: 53px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    border-bottom: 0.5rem solid #333333;
+    background-color: #fff;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-light ul li, .top-menu ul li{
+    margin-top: 12px;
+    height: 92%;
+    padding: 0 8px;
+}
+.navbar-light .active, .current-menu-item{
+    border-bottom: 0.5rem solid #338FBF;
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+}
+.navbar-brand{
+    font-family: Montserrat,Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.navbar-nav ul li a {
+    color: #333333;
+}
+.navbar-nav, .top-menu {
+    /*display: contents;*/
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.top-menu ol, ul, dl {
+    margin-top: 7px;
+}
+.top-menu ul {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+.top-menu a {
+    text-decoration: none;
+}
+
+/*////////////////////////////////////*/
+header {
+    color: #FFFFFF;
+    width: 100%;
+    height: 460px;
+    background: #338FBF url(../../assets/img/Main.svg);
+    background-repeat: no-repeat;
+
+}
+
+header h1{
+    color: #FFFFFF;
+    width: 369px;
+    height: 142px;
+    margin-bottom: 0;
+}
+header .container .row p{
+    padding-top: 60px;
+    font-family: Montserrat, SemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.15px;
+    width: 531px;
+    height: 96px;
+}
+header .container .row .col-sm-6 h1 {
+    padding-top: 43px;
+}
+header .container .row .col-sm-6 h4 {
+    padding-top: 43px;
+}
+header .connect {
+    width: 150px;
+    height: 48px;
+    background-color: #F2C94C;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 0.625em 1em ;
+    z-index: 999;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    color: #333333;
+}
+header #connect{
+    padding-top: 60px;
+}
+
+
+
+
+
+@media (min-width: 1441px) and (max-width: 2560px){
+    header{
+        background-size: 32%;
+        background-position: bottom;
+        background-position-x: 65%;
+        background-position-y: 19%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    header{
+        background-size: 58%;
+        background-position: bottom;
+        background-position-x: 138%;
+        background-position-y: 19%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1024px){
+   header{
+       background-size: 80%;
+       background-position: bottom;
+       background-position-x: 208%;
+       background-position-y: 19%;
+   }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .navbar-brand{
+        font-family: Montserrat,Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.65px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .row{
+        margin: 0;
+        /*padding: 0 16px;*/
+    }
+    .navbar > .container {
+        max-width: 100%;
+        min-width: 320px;
+        padding: 0 16px;
+    }
+
+    header {
+        background-size: 106%;
+        background-position: bottom;
+        background-position-x: 11rem;
+        background-position-y: 19%;
+    }
+    header h2 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 57px;
+        /*text-align: center;*/
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        margin: 0px 0px;
+        width: 100%;
+    }
+    header .container .row p {
+
+    }
+
+    header .container .row p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+
+        width: 288px;
+        height: 96px;
+        text-align: left;
+        margin-top: 8px;
+    }
+}
+@media (min-width: 426px) and (max-width: 767px){
+    .navbar > .container {
+        padding: 0 16px;
+    }
+    .navbar-light {
+        height: auto;
+        padding: 14px 0;
+    }
+    header {
+        /*margin-top: -3rem;*/
+    }
+    header h1 {
+        color: #FFFFFF;
+        width: 100%;
+        height: 142px;
+        margin-bottom: 0;
+    }
+    .navbar-nav, .top-menu {
+        display: contents;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px){
+    header{
+        height: 490px;
+        background-position: 58% 13rem;
+        background-size: 136%;
+        margin-top: 2rem;
+    }
+    header .container .row .justify-content-center{
+        /*text-align: center;*/
+    }
+    header .container .row .col-sm-6 h2 {
+        padding-top: 39px;
+    }
+    header .container .row .col-sm-6  h4 {
+        padding-top: 0;
+        margin: 8px 22px;
+        width: 85%;
+    }
+    header #connect{
+        /*padding-top: 256px;*/
+        /*padding-top: 250px;*/
+    }
+    header .container .row p {
+        padding-top: 6px;
+        width: 100%;
+    }
+    header #connect {
+        padding-top: 32px;
+    }
+    header .connect {
+        width: 100%;
+    }
+
+}
+@media  (max-width: 375px){
+    header {
+        /*background-position: 90% 207%;*/
+        /*background-size: 220%;*/
+        background-position: 55% 13.5rem;
+        background-size: 153%;
+
+    }
+    header h1{width: 100%}
+    header .connect{
+        width: 100%;
+    }
+    header .container .row p {
+        width: 100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media  (max-width: 320px){
+    header{
+        /*background-position: 89% 157%;*/
+        /*background-size: 210%;*/
+        background-position: 50% 14.1rem;
+        background-size: 170%;
+    }
+
+    header .container .row .col-sm-6 h1 {
+        padding-top: 32px;
+    }
+
+    header .container .row p {
+        padding-top: 10px;
+    }
+
+    header #connect {
+        padding-top: 32px;
+    }
+
+    .navbar > .container {
+        padding: 0 16px;
+    }
+}

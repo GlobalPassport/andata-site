@@ -187,6 +187,10 @@
 #example_of_use .list2 li{
     list-style-image: url("../img/check.svg");
 }
+
+#example_of_use .desk  {display: flex}
+#example_of_use  .mob {display: none}
+
 /*////////////////////////////////////*/
 #offer_to_connect{
     background-color: #338FBF;
@@ -291,6 +295,7 @@
     position: relative;
     left: 15px;
     bottom: 8px;
+    /*padding-right: 16px;*/
 }
 #cost .down .b-r{
     width: 100%;
@@ -393,7 +398,11 @@ footer img{
         padding-bottom: 16px;
     }
     #how_it_work h3{
-        font-size: 23px;
+
+        margin-bottom: 8px;
+    }
+    #how_it_work .cif-p .body1 {
+        padding-top: 0px;
     }
     #how_it_work img {
         margin-left: 0px;
@@ -441,7 +450,7 @@ footer img{
     }
     #example_of_use .align-bottom .body1 {
         height: 72px;
-        margin-top: 5px;
+        margin-top: 16px;
     }
     #example_of_use .img-4 {
         background-position: 6rem 100%;
@@ -501,6 +510,9 @@ footer img{
         text-align: initial;
     }
 
+
+
+
     footer .button_medium {
         margin-right: 0;
     }
@@ -514,8 +526,6 @@ footer img{
     #example_of_use h2 {
         width: 100%;
     }
-    /*#example_of_use .m {display: flex}*/
-    /*#example_of_use .d {display: none}*/
     #example_of_use .img-4 {
         background-position: 7rem 100%;
         background-size: 70%;
@@ -530,7 +540,8 @@ footer img{
         background: #F2F2F2;
         margin-top: 31rem;
     }
-
+    #example_of_use .desk  {display: none}
+    #example_of_use  .mob {display: block}
 
     #offer_to_connect{
         height: 13.25rem;
@@ -584,7 +595,10 @@ footer img{
     }
     #how_it_work .body1 {
         width: auto;
-        /*padding-bottom: 32px;*/
+
+    }
+    #how_it_work .row .row .body1{
+        padding-bottom: 32px;
     }
     #how_it_work .list-p {
         padding-right: 0;
@@ -597,7 +611,7 @@ footer img{
         padding-bottom: 32px;
     }
     #example_of_use{
-        margin-top: 19rem;
+        margin-top: 20rem;
     }
     #example_of_use h2{
         font-style: normal;
@@ -612,7 +626,10 @@ footer img{
     #example_of_use h3 {
         padding: 0;
         text-align: center;
+        margin-bottom: 16px;
     }
+
+   
     #example_of_use .align-bottom .body1 {
         width: 100%;
         text-align: center;
@@ -625,6 +642,18 @@ footer img{
         padding-bottom: 16px;
     }
 
+    #example_of_use .list1, .list2 {
+
+        padding-left: 24px;
+        margin-bottom: 2rem;
+
+    }
+
+    #example_of_use .img-4 {
+        margin-top: 1rem;
+    }
+
+
     #offer_to_connect{
         height: 568px;
         /*background: #338FBF  url("../img/center_vector.svg");*/
@@ -636,7 +665,9 @@ footer img{
         width: 100%;
         /*display: block;*/
     }
-
+    #offer_to_connect .mob{
+        text-align: left;
+    }
     #offer_to_connect img {
         position: absolute;
         right: calc(100% - 36rem);
@@ -661,35 +692,40 @@ footer img{
     }
 
     #cost {
-        height: 960px;
+        height: 920px;
     }
     #cost .rub-image {
         left: 14rem;
     }
     #cost .down {
-        margin-top: 40px;
-        padding-right: 16px;
+        margin-top: 6rem;
+        /*padding-right: 16px;*/
     }
     #cost .b-r {
         width: 100%;
-        position: relative;
-        top: 2rem;
-        left: 0;
+        text-align: left;
+
     }
+    #cost .b-r h6{padding-bottom: 8px}
     #cost .d-inline-block span {
 
         color: #333333;
-        margin-left: 39px;
+        margin-left: 0;
         position: relative;
         top: 8px;
 
     }
+    #cost .b-r .d-inline-block{
+        text-align: center;
+    }
+
+
 
     #partner h2 {
         font-family: Montserrat,Regular;
         text-align: center;
         color: #333333;
-        padding: 32px 0 0 0;
+        padding: 32px 0 16px 0;
         font-style: normal;
         font-weight: bold;
         font-size: 34px;
@@ -727,7 +763,7 @@ footer img{
 }
 @media screen and (max-width: 425px){
     #how_it_work {
-        height: 1000px;
+        /*height: 1000px;*/
         color: #333333;
         padding-bottom: 70px;
     }
@@ -792,6 +828,9 @@ footer img{
         width: 100%;
     }
 
+    #cost{
+        height: 920px;
+    }
     #cost .justify-content-center .col-lg-6 {
         padding-left: 0;
     }
@@ -800,14 +839,15 @@ footer img{
     }
     #cost .col-lg-6 .row .title{
         margin-top: 33px;
+        text-align: center;
     }
     #cost .float-left{
         text-align: left;
     }
     #cost .connect {
-        width: 95%;
+        width: 100%;
         height: 48px;
-        margin-left: 1rem;
+
     }
     #cost .text-center span {
         margin-left: 0;
@@ -831,10 +871,13 @@ footer img{
     }
     footer {
         width: 100%;
-        background: #338FBF url(../../assets/img/vector_footer.svg);
+        background: #338FBF url(../../assets/img/iPhoneSE36.svg);
         background-repeat: no-repeat;
-        background-position: -6rem 25%;
-        background-size: 100%;
+        /*background-position: -6rem 25%;*/
+        background-position: bottom;
+        background-position-x: 0 ;
+        background-position-y: 0 ;
+        /*background-size: 100%;*/
 
     }
 }
@@ -850,18 +893,21 @@ footer img{
     /*}*/
 
     #how_it_work {
-        height: 1020px;
+        height: 903px;
         color: #333333;
         padding-bottom: 70px;
     }
+    #example_of_use {
+        margin-top: 20em;
+    }
+
 }
 @media screen and (max-width: 375px){
     #how_it_work {
-        height: 1020px;
+        height: 979px;;
         color: #333333;
         padding-bottom: 70px;
     }
-
 
     #example_of_use .img-1 {
         background-position: 1rem 100%;
@@ -883,11 +929,19 @@ footer img{
         padding-top: 16px;
         padding-bottom: 216px;
     }
+    #example_of_use {
+        margin-top: 19em;
+    }
 
+
+    #cost{
+        height: 940px;
+    }
     #cost h2 {
         font-size: 34px;
         line-height: 40px;
         padding-top: 32px;
+        margin-bottom: 0;
         padding-bottom: 16px;
         color: #333333;
     }
@@ -901,9 +955,23 @@ footer img{
         text-align: left;
     }
 
+    #cost h6 {
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+/*#cost h6, span {*/
+/*        !*font-weight: bold;*!*/
+/*        font-style: normal;*/
+/*        font-weight: normal;*/
+/*        font-size: 16px;*/
+/*        line-height: 24px;*/
+/*        letter-spacing: 0.15px;*/
+/*    }*/
+
     footer {
-        background-position: -9rem 17%;
-        background-size: 165%;
         width: 100%;
     }
 
@@ -913,7 +981,7 @@ footer img{
 }
 @media screen and (max-width: 320px){
     #how_it_work {
-        height: 1120px;
+        height: 1072px;
         color: #333333;
         padding-bottom: 70px;
     }
@@ -949,6 +1017,7 @@ footer img{
     #example_of_use h3 {
         width: 100%;
         /*margin-left: 4%;*/
+        margin-bottom: 16px;
     }
 
     #cost .rub-image {
@@ -960,7 +1029,7 @@ footer img{
         left: 0;
     }
     #cost {
-        height: 990px;
+        height: 960px;
     }
 
     #offer_to_connect .container-fluid{
@@ -1002,8 +1071,9 @@ footer img{
     }
 
     footer {
-        background-position: -9rem 17%;
-        background-size: 165%;
+        background-position: bottom;
+        background-position-x: 0;
+        background-size: 100%;
         width: 100%;
     }
     footer .button_medium {
